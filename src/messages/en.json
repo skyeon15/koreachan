@@ -1,0 +1,106 @@
+{
+  "common": {
+    "brandName": "KoreaChan",
+    "lineConsult": "Chat on LINE",
+    "lineCheck": "Check availability on LINE",
+    "lineConsultTry": "Message us on LINE",
+    "jpSupport": "Japanese & English support available",
+    "freeConsult": "Free consultation"
+  },
+  "nav": {
+    "services": "Experiences",
+    "howItWorks": "How It Works",
+    "testimonials": "Reviews",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "tag": "Local Experience Service in Korea",
+    "title1": "Skip the tourist spots.",
+    "title2": "Live a day in the life",
+    "title3": "of a real Korean.",
+    "subtitle1": "Homestays, local experiences, and local companions —",
+    "subtitle2": "step into the real everyday life of Korea."
+  },
+  "trust": {
+    "title": "Designed for Your Peace of Mind",
+    "subtitle": "Safe and comfortable, whether it's your first time or you're traveling solo.",
+    "item1Title": "First meeting at a cafe",
+    "item1Desc": "Your first meetup is always at a public place like a cafe. Feel safe from the start.",
+    "item2Title": "Inquiries in Japanese OK",
+    "item2Desc": "Booking and inquiries via LINE are available in Japanese. During the experience, communicate with your host using a translation app.",
+    "item3Title": "Go at your own pace",
+    "item3Desc": "No packed schedules. Stay comfortable, and feel free to stop anytime."
+  },
+  "services": {
+    "title": "Experiences",
+    "subtitle": "Not tourist spots. Just ordinary Korean daily life, together.",
+    "homestayTag": "Homestay",
+    "homestayTitle": "Stay at a local's home",
+    "homestayDesc": "Experience life in a Korean local's space. Have breakfast together, take a walk around the neighborhood. A taste of real daily life you can't get from tourism.",
+    "homestayF1": "Stay at a local's home",
+    "homestayF2": "Share meals & walks",
+    "homestayF3": "Experience Korean daily life",
+    "localTag": "Local Experience",
+    "localTitle": "Walk the streets together (3hrs+)",
+    "localDesc": "Supermarkets, convenience store snacks, cafes, karaoke, neighborhood walks... Enjoy everyday Korean life with a local, beyond the guidebooks.",
+    "localF1": "Starting from 3 hours",
+    "localF2": "Off-the-guidebook spots",
+    "localF3": "Easy to join",
+    "companionTag": "Local Companion",
+    "companionTitle": "Translation app? Totally fine.",
+    "companionDesc": "Don't worry if you don't speak Korean. Using a translation app is perfectly fine. It's the time spent together that matters most, not the language.",
+    "companionF1": "Translation app OK",
+    "companionF2": "No language barrier",
+    "companionF3": "Time together is the value"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "3 simple steps to real Korean daily life.",
+    "step1Title": "Chat on LINE",
+    "step1Desc": "Send us a message on LINE. Tell us your dates and what kind of experience you'd like. We respond in Japanese and English.",
+    "step2Title": "Get matched with a host",
+    "step2Desc": "We'll introduce you to a local Korean host that fits you. First meetup is always at a safe, public place like a cafe.",
+    "step3Title": "Spend time together",
+    "step3Desc": "Walk the streets, share a meal. Enjoy an ordinary Korean day together."
+  },
+  "testimonials": {
+    "title": "What People Say",
+    "subtitle": "Real stories from KoreaChan participants.",
+    "r1Name": "Yuki (25, Tokyo)",
+    "r1Text": "I was nervous traveling alone, but picking snacks at a convenience store and chatting at a cafe with a local — it felt like I made a real friend in Korea.",
+    "r1Tag": "Local Experience",
+    "r2Name": "Mai (28, Osaka)",
+    "r2Text": "We used a translation app the whole time, but it wasn't awkward at all. Laughing together was so much fun — I definitely want to do this again.",
+    "r2Tag": "Local Companion",
+    "r3Name": "Kenta (32, Fukuoka)",
+    "r3Text": "I've been to Korea many times but always did the same tourist stuff. KoreaChan took me to a local's favorite spots — it was a completely different Korea.",
+    "r3Tag": "Local Experience"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Have questions? Feel free to reach out on LINE.",
+    "q1": "Can I communicate in Japanese?",
+    "a1": "Yes. LINE consultations are available in Japanese. During the experience, you can communicate with your host using a translation app. Even if words aren't perfect, the time spent together is the most valuable part.",
+    "q2": "Can I join alone?",
+    "a2": "Absolutely. Most participants are solo travelers. Your local host will be with you, so you won't feel lonely.",
+    "q3": "Is it safe?",
+    "a3": "The first meeting is always at a public place like a cafe. Hosts are pre-screened and interviewed. You can go at your own pace and stop anytime.",
+    "q4": "How much does it cost?",
+    "a4": "It depends on the experience. Send us your preferences on LINE and we'll provide a quote.",
+    "q5": "Can I cancel a reservation?",
+    "a5": "Yes. Cancellations follow our cancellation policy. Contact us on LINE for details. A deposit may be required to prevent no-shows.",
+    "q6": "What kind of experiences are available?",
+    "a6": "Cafe hopping, grocery shopping, convenience store late-night snacks, karaoke, neighborhood walks — everyday Korean life. We can customize based on your preferences."
+  },
+  "finalCta": {
+    "title1": "Ready to experience",
+    "title2": "a real day in Korea?",
+    "subtitle1": "Send us a message on LINE to get started.",
+    "subtitle2": "Check availability or ask about experiences — we reply in Japanese and English."
+  },
+  "footer": {
+    "tagline": "Real Korean life, together.",
+    "companyName": "Parandaenamusup",
+    "copyright": "All rights reserved."
+  }
+}
