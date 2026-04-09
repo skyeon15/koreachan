@@ -8,8 +8,9 @@ export function Services() {
       tag: t("homestayTag"),
       title: t("homestayTitle"),
       description: t("homestayDesc"),
-      features: [t("homestayF1"), t("homestayF2"), t("homestayF3")],
+      features: [t("homestayF1"), t("homestayF2"), t("homestayF3"), t("homestayF4")],
       emoji: "🏠",
+      highlight: true,
     },
     {
       tag: t("localTag"),
@@ -17,6 +18,7 @@ export function Services() {
       description: t("localDesc"),
       features: [t("localF1"), t("localF2"), t("localF3")],
       emoji: "🚶",
+      highlight: false,
     },
     {
       tag: t("companionTag"),
@@ -24,6 +26,7 @@ export function Services() {
       description: t("companionDesc"),
       features: [t("companionF1"), t("companionF2"), t("companionF3")],
       emoji: "🤝",
+      highlight: false,
     },
   ];
 
@@ -40,7 +43,9 @@ export function Services() {
           {services.map((service) => (
             <article
               key={service.tag}
-              className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow"
+              className={`bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow ${
+                service.highlight ? "ring-2 ring-primary/20" : ""
+              }`}
             >
               <span className="text-4xl mb-4 block">{service.emoji}</span>
               <span className="inline-block text-xs font-semibold text-primary bg-primary-light px-3 py-1 rounded-full mb-3">

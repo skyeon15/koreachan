@@ -5,6 +5,7 @@ import { Trust } from "@/components/Trust";
 import { Services } from "@/components/Services";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Testimonials } from "@/components/Testimonials";
+import { HostRecruit } from "@/components/HostRecruit";
 import { FAQ } from "@/components/FAQ";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
@@ -26,6 +27,7 @@ export default async function Home({
         <Services />
         <HowItWorks />
         <Testimonials />
+        <HostRecruit />
         <FAQ />
         <FinalCTA />
       </main>

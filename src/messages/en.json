@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "KoreaChan | Local Experiences, Homestay & Local Companion in Korea",
+    "description": "Skip the tourist spots. Live a day in the life of a real Korean. Homestays, local experiences, and local companions for an authentic Korean daily life experience."
+  },
   "common": {
     "brandName": "KoreaChan",
     "lineConsult": "Chat on LINE",
@@ -10,7 +14,8 @@
   "nav": {
     "services": "Experiences",
     "howItWorks": "How It Works",
-    "testimonials": "Scenes",
+    "scenes": "Scenes",
+    "host": "Become a Host",
     "faq": "FAQ"
   },
   "hero": {
@@ -34,12 +39,13 @@
   "services": {
     "title": "Experiences",
     "subtitle": "Not tourist spots. Just ordinary Korean daily life, together.",
-    "homestayTag": "Homestay",
-    "homestayTitle": "Stay at a local's home",
-    "homestayDesc": "Experience life in a Korean local's space. Have breakfast together, take a walk around the neighborhood. A taste of real daily life you can't get from tourism.",
-    "homestayF1": "Stay at a local's home",
-    "homestayF2": "Share meals & walks",
-    "homestayF3": "Experience Korean daily life",
+    "homestayTag": "Live-in Homestay",
+    "homestayTitle": "Live with a Korean local",
+    "homestayDesc": "Stay at a local's home for about 2 weeks (duration negotiable). Eat, sleep, and live together — go grocery shopping, cook meals, take walks around the neighborhood. This is the real daily life that tourism can never offer.",
+    "homestayF1": "~2 weeks live-in stay",
+    "homestayF2": "Meals, chores & shopping together",
+    "homestayF3": "Duration negotiable with host",
+    "homestayF4": "Experience real Korean daily life",
     "localTag": "Local Experience",
     "localTitle": "Walk the streets together (3hrs+)",
     "localDesc": "Supermarkets, convenience store snacks, cafes, karaoke, neighborhood walks... Enjoy everyday Korean life with a local, beyond the guidebooks.",
@@ -85,6 +91,19 @@
     "s6Desc": "Experience a Korean-style breakfast at your host's home. Doenjang jjigae, kimchi, and roasted seaweed on the table.",
     "s6Tag": "Homestay"
   },
+  "host": {
+    "title": "Become a host and welcome guests",
+    "subtitle": "No nationality or language requirements. If you live in Korea and are interested in Japan, you can be a host.",
+    "item1Title": "On your own schedule",
+    "item1Desc": "You decide when and how to host. Participate at your own pace, no pressure.",
+    "item2Title": "No language barrier",
+    "item2Desc": "A translation app is enough. What matters is the time you spend together.",
+    "item3Title": "Earn income",
+    "item3Desc": "Receive compensation as a homestay or companion experience host.",
+    "ctaTitle": "Interested in becoming a host?",
+    "ctaDesc": "Send us a message on LINE. We'll discuss the details, conditions, and hosting style that works for you.",
+    "ctaButton": "Ask about hosting"
+  },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Have questions? Feel free to reach out on LINE.",
@@ -99,7 +118,9 @@
     "q5": "Can I cancel a reservation?",
     "a5": "Yes. Cancellations follow our cancellation policy. Contact us on LINE for details. A deposit may be required to prevent no-shows.",
     "q6": "What kind of experiences are available?",
-    "a6": "Cafe hopping, grocery shopping, convenience store late-night snacks, karaoke, neighborhood walks — everyday Korean life. We can customize based on your preferences."
+    "a6": "Cafe hopping, grocery shopping, convenience store late-night snacks, karaoke, neighborhood walks — everyday Korean life. We can customize based on your preferences.",
+    "q7": "How long is the homestay?",
+    "a7": "The standard is about 2 weeks, but it can be flexibly adjusted through discussion between host and guest. Let us know your preferred duration on LINE."
   },
   "finalCta": {
     "title1": "Ready to experience",

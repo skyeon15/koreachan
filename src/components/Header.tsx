@@ -19,8 +19,11 @@ export function Header() {
           <a href="#how-it-works" className="hover:text-foreground transition-colors">
             {t("nav.howItWorks")}
           </a>
-          <a href="#testimonials" className="hover:text-foreground transition-colors">
-            {t("nav.testimonials")}
+          <a href="#scenes" className="hover:text-foreground transition-colors">
+            {t("nav.scenes")}
+          </a>
+          <a href="#host" className="hover:text-foreground transition-colors">
+            {t("nav.host")}
           </a>
           <a href="#faq" className="hover:text-foreground transition-colors">
             {t("nav.faq")}
