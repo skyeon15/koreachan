@@ -27,7 +27,16 @@ export function Footer() {
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-xs">
           <p>
-            &copy; {new Date().getFullYear()} {t("footer.copyright")}
+            &copy; {new Date().getFullYear()}{" "}
+            <a
+              href="https://bbforest.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              {t("footer.companyName")}
+            </a>
+            . {t("footer.copyright")}
           </p>
         </div>
       </div>
