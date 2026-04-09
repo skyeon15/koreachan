@@ -1,12 +1,15 @@
 import { useTranslations } from "next-intl";
 
 export function Testimonials() {
-  const t = useTranslations("testimonials");
+  const t = useTranslations("scenes");
 
   const items = [
-    { name: t("r1Name"), text: t("r1Text"), tag: t("r1Tag") },
-    { name: t("r2Name"), text: t("r2Text"), tag: t("r2Tag") },
-    { name: t("r3Name"), text: t("r3Text"), tag: t("r3Tag") },
+    { emoji: "🏪", title: t("s1Title"), desc: t("s1Desc"), tag: t("s1Tag") },
+    { emoji: "☕", title: t("s2Title"), desc: t("s2Desc"), tag: t("s2Tag") },
+    { emoji: "🌙", title: t("s3Title"), desc: t("s3Desc"), tag: t("s3Tag") },
+    { emoji: "🎤", title: t("s4Title"), desc: t("s4Desc"), tag: t("s4Tag") },
+    { emoji: "🚶", title: t("s5Title"), desc: t("s5Desc"), tag: t("s5Tag") },
+    { emoji: "🍳", title: t("s6Title"), desc: t("s6Desc"), tag: t("s6Tag") },
   ];
 
   return (
@@ -18,20 +21,21 @@ export function Testimonials() {
         <p className="text-muted text-center mb-12 max-w-xl mx-auto">
           {t("subtitle")}
         </p>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {items.map((item) => (
-            <blockquote
-              key={item.name}
-              className="bg-white rounded-2xl p-8 shadow-sm"
+            <div
+              key={item.title}
+              className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
             >
-              <span className="inline-block text-xs font-semibold text-primary bg-primary-light px-3 py-1 rounded-full mb-4">
+              <span className="text-3xl mb-3 block">{item.emoji}</span>
+              <span className="inline-block text-xs font-semibold text-primary bg-primary-light px-3 py-1 rounded-full mb-3">
                 {item.tag}
               </span>
-              <p className="text-sm leading-relaxed text-muted mb-6">
-                「{item.text}」
+              <h3 className="font-bold text-base mb-2">{item.title}</h3>
+              <p className="text-sm leading-relaxed text-muted">
+                {item.desc}
               </p>
-              <footer className="font-semibold text-sm">{item.name}</footer>
-            </blockquote>
+            </div>
           ))}
         </div>
       </div>
